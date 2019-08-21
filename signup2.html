@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Instant Auto Mechano</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/wow.min.js.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/animate.css"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-signup1 navbar-nav navbar-default navbar-fixed-top">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#umair">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+       <a class="navbar-brand" href="index.html">
+        <img style="max-width:145px; margin-top: -19px;"
+             src="images/logo.png">
+    </a>
+  </div>    
+  </div><!--end-md-4-->
+   <div class="col-md-8">
+     <ul class="nav navbar-nav navbar-right">
+           
+     <li><a href="" style="font-size:16px; margin-top:15px; font-color:#000000; font-weight:bolder; line-height:1.26">Already Have An Account?</a></li>
+    <li><a data-toggle="modal" data-target="#login" href="" class="btn btnsignup1 btnsignupclr"><strong style="color:#2C1708;">Sign In</strong></a></li>
+    </ul>
+</div><!--end-md-8-->
+</div><!--end-row-->
+</div><!--end-Container-->  
+</nav><br><br><br><br><br>
+    <!-- login Modal-->
+<div class="modal fade" id="login" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class=" clr modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h2 class="modal-title"></h2>    
+</div>
+<div class="modal-body">
+<center><strong><h2><bold>Log In /Sign Up</bold></h2></strong></center>    
+<form>
+<div class="well">
+<div class="form-group">
+<label>Name*</label>
+<input type="text" class="form-control" placeholder="User Name / Email" name="t1">
+</div>
+    <div class="form-group">
+<label>Password*</label>
+<input type="password" class="form-control" placeholder="Password" name="t1">
+</div>  
+</div> 
+    <a href="" type="button" style="color:#2C1708;" class="btn btn-block btnloginclr"><strong>Log In</strong></a>
+    <center><strong style="font-size:18px;">OR</strong></center>
+    <a  href="signup.html" type="button" style="color:#2C1708;" class="btn btn-block btnsignupclr"><strong>Sign Up</strong></a>
+</form>   
+</div>
+<div class=" ftclr modal-footer">
+<button type="button" class="btn btnclr" data-dismiss="modal">Close</button>    
+</div>    
+</div>    
+</div>    
+</div><!--end of modal login-->
+<div class="container-fluid signupdiv">
+    <br><br>
+    <div class="container">
+    <div style="background-color:#B7B7B7;">
+        <br><br>
+        </div>
+    <div class="formbody"><br>    
+    <form class="form-horizontal">
+     <div class="form-group">
+    <label class="control-label col-md-2">PANTAN Number<h6><strong>(TAN number required if registered as company)</strong></h6></label>
+    <div class="col-md-10">
+    <input type="text" name="PANTAN Number" class="form-control" placeholder="PANTAN Number">    
+    </div>    
+    </div>
+    
+     <div class="form-group">
+    <label class="control-label col-md-2">File input</label>
+    <input type="file" class="form-control-file" aria-describedby="fileHelp">
+    </div>    
+        
+    <div class="form-group">
+    <label class="control-label col-md-2">GSTIN* </label>
+    <div class="col-md-10">
+    <input type="text" name="GSTIN" class="form-control" placeholder="GSTIN">
+    </div>    
+    </div> 
+        
+   
+        
+       
+    <div class="form-group">
+    <label class=" control-label col-md-2" >GST%</label>
+    <div class="col-md-10">    
+    <select  class="form-control" placeholder="Select">
+      <option>Select</option>
+      <option>10%</option>
+      <option>20%</option>
+      <option>30%</option>
+      <option>40%</option>
+      <option>50%</option>
+      <option>60%</option>    
+    </select></div>
+  </div>
+        
+    
+    <div class="form-group">
+    <label class="control-label col-md-2">Service Fee*<h6><strong>(Recomended 0)</strong></h6> </label>
+    <div class="col-md-10">
+    <input type="text" name="Service Fee" class="form-control" placeholder="Service Fee">
+    </div>    
+    </div> 
+        
+     
+    <div class="form-group">
+    <label class=" control-label col-md-2" >Service Area*<br><h6><strong>(Select Service area around your workshop)</strong></h6></label>
+    <div class="col-md-10">    
+    <select  class="form-control" placeholder="Select">
+      <option>Select</option>
+      <option>Shahdara</option>
+      <option>Bhaati</option>
+      <option>Muslim Town</option>
+      <option>Garden Town</option>
+      <option>Faisal Town</option>
+      <option>Township</option>    
+    </select></div>
+  </div>
+        
+        
+    
+     <div class="form-group">
+    <label class="control-label col-md-2">Name Of Staff Taking Orders </label>
+    <div class="col-md-10">
+    <input type="text" name="GST%" class="form-control" placeholder="Name Of Staff">
+    </div>    
+    </div>    
+    
+    <div class="form-group">
+    <label class="control-label col-md-2">Contact Number To Recieve </label>
+    <div class="col-md-10">
+    <input type="text" name="contact number" class="form-control" placeholder="Contact Number">
+    </div>    
+    </div>    
+        
+    </form>
+   
+        
+   
+    <a  href="signup3" type="button" style="color:#2C1708;" class="btn btn-block btnsignupclr"><strong>Save & Continue</strong></a>  <br>  
+    </div>   
+    </div><br><br>
+    </div>
+    
+    
+    
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>    
+</body>    
+
+</html>

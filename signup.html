@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Instant Auto Mechano</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/wow.min.js.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/animate.css"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-signup1 navbar-nav navbar-default navbar-fixed-top">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#umair">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+       <a class="navbar-brand" href="index.html">
+        <img style="max-width:145px; margin-top: -19px;"
+             src="images/logo.png">
+    </a>
+  </div>    
+  </div><!--end-md-4-->
+   <div class="col-md-8">
+     <ul class="nav navbar-nav navbar-right">
+           
+     <li><a href="" style="font-size:16px; margin-top:15px; font-color:#000000; font-weight:bolder; line-height:1.26">Already Have An Account?</a></li>
+    <li><a data-toggle="modal" data-target="#login"  class="btn btnsignup1 btnsignupclr"><strong style="color:#2C1708;">Sign In</strong></a></li>
+    </ul>
+</div><!--end-md-8-->
+</div><!--end-row-->
+</div><!--end-Container-->  
+</nav><br><br><br><br><br>
+    <!-- login Modal-->
+<div class="modal fade" id="login" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class=" clr modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h2 class="modal-title"></h2>    
+</div>
+<div class="modal-body">
+<center><strong><h2><bold>Log In /Sign Up</bold></h2></strong></center>    
+<form>
+<div class="well">
+<div class="form-group">
+<label>Name*</label>
+<input type="text" class="form-control" placeholder="User Name / Email" name="t1">
+</div>
+    <div class="form-group">
+<label>Password*</label>
+<input type="password" class="form-control" placeholder="Password" name="t1">
+</div>  
+</div> 
+    <a href="signup3.html" type="button" style="color:#2C1708;" class="btn btn-block btnloginclr"><strong>Log In</strong></a>
+    <center><strong style="font-size:18px;">OR</strong></center>
+    <a  href="signup.html" type="button" style="color:#2C1708;" class="btn btn-block btnsignupclr"><strong>Sign Up</strong></a>
+</form>   
+</div>
+<div class=" ftclr modal-footer">
+<button type="button" class="btn btnclr" data-dismiss="modal">Close</button>    
+</div>    
+</div>    
+</div>    
+</div><!--end of modal login-->
+<div class="container-fluid signupdiv">
+    <br><br>
+    <div class="container">
+    <div style="background-color:#B7B7B7;">
+        <br><br>
+        </div>
+    <div class="formbody"><br>    
+    <form class="form-horizontal">
+    <div class="form-group">
+    <label class="control-label col-md-2">Owner Email*</label>
+    <div class="col-md-10">
+    <input type="email" name="owner-email" class="form-control" placeholder="Owner Email">    
+    </div>    
+    </div>
+        <div class="form-group">
+    <label class="control-label col-md-2">Create Password* </label>
+    <div class="col-md-10">
+    <input type="password" name="create password" class="form-control" placeholder="Create Password">    
+    </div>    
+    </div>
+        <div class="form-group">
+    <label class="control-label col-md-2">Confirm Password*</label>
+    <div class="col-md-10">
+    <input type="password" name="confirm password" class="form-control" placeholder="Confirm Password">    
+    </div>    
+    </div>
+            <div class="form-group">
+    <label class="control-label col-md-2">WorkShop Name*</label>
+    <div class="col-md-10">
+    <input type="text" name="workshop name" class="form-control" placeholder="WorkShop Name">    
+    </div>    
+    </div>
+            <div class="form-group">
+    <label class="control-label col-md-2">Registered Name Of Business*</label>
+    <div class="col-md-10">
+    <input type="text" name="registered name of business" class="form-control" placeholder="Registered Name Of Business">    
+    </div>    
+    </div>
+      <div class="form-group">
+    <label class="control-label col-md-2">WorkShop Address*</label>
+    <div class="col-md-10">
+    <textarea class="form-control" rows="2" id="address" placeholder="WorkShop Address"></textarea>    
+    </div>    
+    </div>
+      <div class="form-group">
+    <label class="control-label col-md-2">Registered Business Address*</label>
+    <div class="col-md-10">
+    <textarea class="form-control" rows="1" id="address" placeholder="Registered Business Address Address"></textarea>    
+    </div>    
+    </div>
+          <div class="form-group">
+    <label class="control-label col-md-2">Owner Name*</label>
+    <div class="col-md-10">
+    <textarea class="form-control" rows="1" id="name" placeholder="Owner Name"></textarea>    
+    </div>    
+    </div>
+      <div class="form-group">
+    <label class="control-label col-md-2">Owner CNIC Number*</label>
+    <div class="col-md-10">
+    <input type="text" name="cnic num" class="form-control" placeholder="Owner CNIC Number">    
+    </div>    
+    </div>
+         <div class="form-group">
+    <label class="control-label col-md-2">Owner Contact Number*</label>
+    <div class="col-md-10">
+    <input type="text" name="contact num" class="form-control" placeholder="Owner Contact Number">    
+    </div>    
+    </div>
+          <div class="form-group">
+    <label class="control-label col-md-2">City*</label>
+    <div class="col-md-10">
+    <input type="text" name="city" class="form-control" placeholder="City">    
+    </div>    
+    </div>
+     <div class="form-group">
+    <label class="control-label col-md-2">State*</label>         
+    <div class="col-md-10">
+    <input type="text" name="state" class="form-control" placeholder="State">   </div>    
+    </div>
+         <div class="form-group">
+    <label class="control-label col-md-2"><small>I have access to a device and internet connection to accept orders*</small></label>         
+    <div class="col-md-10">
+        <label class="checkbox-inline"><input type="checkbox" value="">Yes</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">No</label>
+</div>    
+</div>
+        
+     <div class="form-group">
+    <label class="control-label col-md-2">Photo (Minimum 2 Photos)</label>
+    <input type="file" class="form-control-file" aria-describedby="fileHelp">
+    <input type="file" class="form-control-file" aria-describedby="fileHelp">
+    </div>
+        
+        <div class="form-group">
+    <label class="control-label col-md-2">Name Of Website*</label>         
+    <div class="col-md-10">
+    <input type="text" name="website" class="form-control" placeholder="Name Of Website">   </div>    
+    </div><br>
+    </form>
+    <a  href="signup2.html" type="button" style="color:#2C1708;" class="btn btn-block btnsignupclr"><strong>Save & Continue</strong></a>  <br>  
+    </div>   
+    </div><br><br>
+    </div>    
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>    
+</body>    
+
+</html>
